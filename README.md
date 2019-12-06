@@ -30,7 +30,7 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. What is the DOM?
 
-        > The DOM is the Document Object Model, Which is the API or helps display the data objects to the screen.
+        > The DOM is the Document Object Model, Which displays the data objects to the screen.
 
 2. What is an event?
         > An event is when an action is placed.
@@ -42,7 +42,7 @@ Edit this document to include your answers after each question. Make sure to lea
         > So that we could use more Array methods on the data.
 
 5. What is a component?
-        > a component is a javascript function that creates objects. It can be re-used with passing new data in.
+        > a component is a javascript function that creates objects. It can be re-used and can pass new data in.
 
 ### Git Set up
 
