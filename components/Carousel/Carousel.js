@@ -41,6 +41,8 @@ function CreateCarousel (){
   img4.classList.add('img-4');
 
   img1.style.display = "block";
+  img1.style.animation = "fadeIn 1s linear";
+  img1.style.animationFillMode = "forwards";
 
   leftButton.textContent = '<';
   rightButton.textContent = '>';
@@ -63,12 +65,17 @@ function CreateCarousel (){
       currentIndex++;
       let nextImage = document.querySelector(`.img-${currentIndex}`);
       nextImage.style.display = "block";
+      nextImage.style.animation = "fadeIn 1s linear";
+      nextImage.style.animationFillMode = "forwards";
     } else {
       let currentImage = document.querySelector(`.img-${currentIndex}`);
       currentImage.style.display = "none";
       currentIndex = 1;
       let nextImage = document.querySelector(`.img-${currentIndex}`);
       nextImage.style.display = "block";
+      nextImage.style.animation = "fadeIn 1s linear";
+      nextImage.style.animationFillMode = "forwards";
+
     }
   })
 
@@ -79,12 +86,16 @@ function CreateCarousel (){
       currentIndex--;
       let nextImage = document.querySelector(`.img-${currentIndex}`);
       nextImage.style.display = "block";
+      nextImage.style.animation = "fadeIn 1s linear";
+      nextImage.style.animationFillMode = "forwards";
     } else {
       let currentImage = document.querySelector(`.img-${currentIndex}`);
       currentImage.style.display = "none";
       currentIndex = 4;
       let nextImage = document.querySelector(`.img-${currentIndex}`);
       nextImage.style.display = "block";
+      nextImage.style.animation = "fadeIn 1s linear";
+      nextImage.style.animationFillMode = "forwards";
     }
   })
 
